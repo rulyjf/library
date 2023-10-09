@@ -1,0 +1,278 @@
+<section class="search-section section-padding section-bg" id="section_2">
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <ul class="nav nav-tabs" id="myTab" role="">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="login-tab" data-bs-toggle="tab"
+                                data-bs-target="#login-tab-pane" type="button" role="tab" aria-controls="login-tab-pane"
+                                aria-selected="true">Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="register-tab" data-bs-toggle="tab"
+                                data-bs-target="#register-tab-pane" type="button" role="tab"
+                                aria-controls="register-tab-pane" aria-selected="false">Register</button>
+                        </li>
+                    </ul>
+                </div>
+                <div col-4></div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="login-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="login-tab-pane" role="tabpanel"
+                        aria-labelledby="login-tab" tabindex="0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+
+                                </div>
+                                <div class="custom-block bg-white shadow-lg col-lg-4 col-md-6 col-12 mb-0 mb-lg-0 p-0">
+                                    <div class="m-4">
+
+                                        <h5 class=" mb-4 pb-2 pt-4 " style="font-size: 13px;">Enter your username &
+                                            Password :</h5>
+
+                                        <form action="#" method="post" class="custom-form contact-form"
+                                            role="form">
+
+                                            <div class="col-lg-12 col-md-6 col-12">
+                                                <div class="form-floating">
+                                                    <input type="email" name="loginEmail" id="loginEmail" class="form-control"
+                                                        placeholder="Email address" required="true">
+                                                    <div class="text-danger d-none" id="loginEmailBlank">
+                                                        <i class="bi bi-exclamation-triangle"></i> Email is required.
+                                                    </div>
+                                                    <div class="text-danger d-none" id="loginEmailFormat">
+                                                        <i class="bi bi-exclamation-triangle"></i> Please input the
+                                                        correct Email address.
+                                                    </div>
+                                                    <label for="loginEmail">Email address</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-6 col-12 mt-6">
+                                                <div class="form-floating">
+                                                    <input type="password" name="loginPassword" id="loginPassword"
+                                                        class="form-control" placeholder="Password" required="true">
+                                                    <div class="text-danger d-none" id="loginPasswordBlank">
+                                                        <i class="bi bi-exclamation-triangle"></i> Password is required.
+                                                    </div>
+                                                    <label for="loginPassword">Password</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-6 col-12 mt-6">
+                                                <div class="alert alert-danger d-none" role="alert"
+                                                    id="loginErrorMessage">
+                                                    User name / Password Wrong, please register if you currently not a
+                                                    member.
+                                                </div>
+                                                <div class="alert alert-info" role="alert" id="loginInfoMessage">
+                                                    Please login use your email & password otherwise can proceed to
+                                                    Registration Page
+                                                </div>
+                                                <div class="alert alert-success d-none" role="alert"
+                                                    id="loginSuccessMessage">
+                                                    Successfully Login, Welcome ...
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12 ms-auto mb-4">
+                                                <button type="submit" id="btn_login" class="form-control">Login</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show" id="register-tab-pane" role="tabpanel"
+                        aria-labelledby="register-tab" tabindex="1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-12 mb-4 mb-lg-0">
+
+                                </div>
+                                <div class="custom-block bg-white shadow-lg col-lg-8 col-md-8 col-12 mb-0 mb-lg-0 p-4">
+                                   
+                                        <h5 class=" mb-4 pb-2 pt-4 " style="font-size: 13px;">Registration Form </h5>
+
+                                        <form action="#" method="post" class="custom-form contact-form needs-validation"
+                                            novalidate role="form">
+
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="form-floating">
+
+                                                    <input type="text" name="name" id="name" class="form-control"
+                                                        placeholder="Name" required="true">
+                                                    <label for="name">Name</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please fill out this field.</div>                                                
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="form-floating">
+                                                    <input type="email" name="email" id="email" class="form-control"
+                                                        placeholder="Email address" value="" required="">
+                                                    <label for="email">Email address</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter a valid email</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="form-floating">
+                                                    <input type="password" name="password" id="password"
+                                                        class="form-control" placeholder="Password" required="">
+                                                    <label for="password">Password</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter strong password for your login</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="form-floating">
+                                                    <input type="number" name="age" id="age" class="form-control"
+                                                        placeholder="Age" required>
+                                                    <label for="age">Age</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter your Age as today</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="form-floating">
+                                                    <select class="form-control" id="sex">
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                        <option>Secret</option>
+                                                    </select>
+                                                    <label for="sex">Gender</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="form-floating">
+                                                    <select class="form-control" id="residence">
+                                                        <option>Singaporean</option>
+                                                        <option>SPR</option>
+                                                        <option>Foreigner</option>
+                                                    </select>
+                                                    <label for="residence">Residence Status</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="form-floating">
+                                                    <input type="text" name="mobilePhone" id="mobilePhone" class="form-control"
+                                                        placeholder="Mobile Phone" required>
+                                                    <label for="mobilePhone">Mobile Phone</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter you singapore mobile phone</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="form-floating">
+                                                    <input type="number" name="block" id="block" class="form-control"
+                                                        placeholder="Block" required>
+                                                    <label for="block">Block</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter your blok number address</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-12">
+                                                <div class="form-floating">
+                                                    <input type="test" name="floorNumber" id="floorNumber" class="form-control"
+                                                        placeholder="floorNumber" required>
+                                                    <label for="floorNumber">Floor & NUmber</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter your floor and unit number</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-12">
+                                                <div class="form-floating">
+                                                    <input type="test" name="address" id="address" class="form-control"
+                                                        placeholder="Address" required>
+                                                    <label for="address">Address</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter a your addrress</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6 col-12">
+                                                <div class="form-floating">
+                                                    <input type="test" name="postalCode" id="postalCode" class="form-control"
+                                                        placeholder="postalCode" required>
+                                                    <label for="postalCode">Postal Code</label>
+                                                    <div class="valid-feedback">look ok ... </div>
+                                                    <div class="invalid-feedback">Please enter your postal code</div>
+                                                </div>
+                                            </div>                                            
+                                  
+
+                                    <div class="col-lg-6 col-12 ms-auto mb-4">
+                                        <button type="submit" id="btn_register" class="form-control">Register</button>
+                                    </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-12 mb-4 mb-lg-0">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+
+<div class="modal" id="myWelcomeModal" role="dialog" style="z-index:9991;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Welcome to Silent Library</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Welcome back, please click profile icon to see more menu</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" id="btnClose_myWelcomeModal"
+                    data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="myVerifiedModal" role="dialog" style="z-index:9991;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Welcome to Silent Library</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for the registration, your account currently still in verification process.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" id="btnClose_myVerifiedModal"
+                    data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,782 @@
+.option-icon {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px; /* Adjust padding for icon spacing */
+  }
+
+  
+#selectWithIcon option[value="+93"] {
+    background-image: url('images/flag-icons-main/flags/4x3/af.svg');
+}
+
+#selectWithIcon option[value="+355"] {
+    background-image: url('images/flag-icons-main/flags/4x3/al.svg');
+}
+
+#selectWithIcon option[value="+213"] {
+    background-image: url('images/flag-icons-main/flags/4x3/dz.svg');
+}
+
+#selectWithIcon option[value="+376"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ad.svg');
+}
+
+#selectWithIcon option[value="+244"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ao.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ag.svg');
+}
+
+#selectWithIcon option[value="+54"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ar.svg');
+}
+
+#selectWithIcon option[value="+374"] {
+    background-image: url('images/flag-icons-main/flags/4x3/am.svg');
+}
+
+#selectWithIcon option[value="+61"] {
+    background-image: url('images/flag-icons-main/flags/4x3/au.svg');
+}
+
+#selectWithIcon option[value="+43"] {
+    background-image: url('images/flag-icons-main/flags/4x3/at.svg');
+}
+
+#selectWithIcon option[value="+994"] {
+    background-image: url('images/flag-icons-main/flags/4x3/az.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bs.svg');
+}
+
+#selectWithIcon option[value="+973"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bh.svg');
+}
+
+#selectWithIcon option[value="+880"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bd.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bb.svg');
+}
+
+#selectWithIcon option[value="+375"] {
+    background-image: url('images/flag-icons-main/flags/4x3/by.svg');
+}
+
+#selectWithIcon option[value="+32"] {
+    background-image: url('images/flag-icons-main/flags/4x3/be.svg');
+}
+
+#selectWithIcon option[value="+501"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bz.svg');
+}
+
+#selectWithIcon option[value="+229"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bj.svg');
+}
+
+#selectWithIcon option[value="+975"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bt.svg');
+}
+
+#selectWithIcon option[value="+591"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bo.svg');
+}
+
+#selectWithIcon option[value="+387"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ba.svg');
+}
+
+#selectWithIcon option[value="+267"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bw.svg');
+}
+
+#selectWithIcon option[value="+55"] {
+    background-image: url('images/flag-icons-main/flags/4x3/br.svg');
+}
+
+#selectWithIcon option[value="+673"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bn.svg');
+}
+
+#selectWithIcon option[value="+359"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bg.svg');
+}
+
+#selectWithIcon option[value="+226"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bf.svg');
+}
+
+#selectWithIcon option[value="+257"] {
+    background-image: url('images/flag-icons-main/flags/4x3/bi.svg');
+}
+
+#selectWithIcon option[value="+855"] {
+    background-image: url('images/flag-icons-main/flags/4x3/kh.svg');
+}
+
+#selectWithIcon option[value="+237"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cm.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ca.svg');
+}
+
+#selectWithIcon option[value="+238"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cv.svg');
+}
+
+#selectWithIcon option[value="+236"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cf.svg');
+}
+
+#selectWithIcon option[value="+235"] {
+    background-image: url('images/flag-icons-main/flags/4x3/td.svg');
+}
+
+#selectWithIcon option[value="+56"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cl.svg');
+}
+
+#selectWithIcon option[value="+86"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cn.svg');
+}
+
+#selectWithIcon option[value="+57"] {
+    background-image: url('images/flag-icons-main/flags/4x3/co.svg');
+}
+
+#selectWithIcon option[value="+269"] {
+    background-image: url('images/flag-icons-main/flags/4x3/km.svg');
+}
+
+#selectWithIcon option[value="+242"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cg.svg');
+}
+
+#selectWithIcon option[value="+243"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cd.svg');
+}
+
+#selectWithIcon option[value="+506"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cr.svg');
+}
+
+#selectWithIcon option[value="+225"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ci.svg');
+}
+
+#selectWithIcon option[value="+385"] {
+    background-image: url('images/flag-icons-main/flags/4x3/hr.svg');
+}
+
+#selectWithIcon option[value="+53"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cu.svg');
+}
+
+#selectWithIcon option[value="+357"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cy.svg');
+}
+
+#selectWithIcon option[value="+420"] {
+    background-image: url('images/flag-icons-main/flags/4x3/cz.svg');
+}
+
+#selectWithIcon option[value="+45"] {
+    background-image: url('images/flag-icons-main/flags/4x3/dk.svg');
+}
+
+#selectWithIcon option[value="+253"] {
+    background-image: url('images/flag-icons-main/flags/4x3/dj.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/dm.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/do.svg');
+}
+
+#selectWithIcon option[value="+593"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ec.svg');
+}
+
+#selectWithIcon option[value="+20"] {
+    background-image: url('images/flag-icons-main/flags/4x3/eg.svg');
+}
+
+#selectWithIcon option[value="+503"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sv.svg');
+}
+
+#selectWithIcon option[value="+240"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gq.svg');
+}
+
+#selectWithIcon option[value="+291"] {
+    background-image: url('images/flag-icons-main/flags/4x3/er.svg');
+}
+
+#selectWithIcon option[value="+372"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ee.svg');
+}
+
+#selectWithIcon option[value="+251"] {
+    background-image: url('images/flag-icons-main/flags/4x3/et.svg');
+}
+
+#selectWithIcon option[value="+679"] {
+    background-image: url('images/flag-icons-main/flags/4x3/fj.svg');
+}
+
+#selectWithIcon option[value="+358"] {
+    background-image: url('images/flag-icons-main/flags/4x3/fi.svg');
+}
+
+#selectWithIcon option[value="+33"] {
+    background-image: url('images/flag-icons-main/flags/4x3/fr.svg');
+}
+
+#selectWithIcon option[value="+241"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ga.svg');
+}
+
+#selectWithIcon option[value="+220"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gm.svg');
+}
+
+#selectWithIcon option[value="+995"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ge.svg');
+}
+
+#selectWithIcon option[value="+49"] {
+    background-image: url('images/flag-icons-main/flags/4x3/de.svg');
+}
+
+#selectWithIcon option[value="+233"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gh.svg');
+}
+
+#selectWithIcon option[value="+30"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gr.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gd.svg');
+}
+
+#selectWithIcon option[value="+502"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gt.svg');
+}
+
+#selectWithIcon option[value="+224"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gn.svg');
+}
+
+#selectWithIcon option[value="+245"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gw.svg');
+}
+
+#selectWithIcon option[value="+592"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gy.svg');
+}
+
+#selectWithIcon option[value="+509"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ht.svg');
+}
+
+#selectWithIcon option[value="+504"] {
+    background-image: url('images/flag-icons-main/flags/4x3/hn.svg');
+}
+
+#selectWithIcon option[value="+36"] {
+    background-image: url('images/flag-icons-main/flags/4x3/hu.svg');
+}
+
+#selectWithIcon option[value="+354"] {
+    background-image: url('images/flag-icons-main/flags/4x3/is.svg');
+}
+
+#selectWithIcon option[value="+62"] {
+    background-image: url('images/flag-icons-main/flags/4x3/id.svg');
+}
+
+#selectWithIcon option[value="+98"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ir.svg');
+}
+
+#selectWithIcon option[value="+964"] {
+    background-image: url('images/flag-icons-main/flags/4x3/iq.svg');
+}
+
+#selectWithIcon option[value="+353"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ie.svg');
+}
+
+#selectWithIcon option[value="+972"] {
+    background-image: url('images/flag-icons-main/flags/4x3/il.svg');
+}
+
+#selectWithIcon option[value="+39"] {
+    background-image: url('images/flag-icons-main/flags/4x3/it.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/jm.svg');
+}
+
+#selectWithIcon option[value="+81"] {
+    background-image: url('images/flag-icons-main/flags/4x3/jp.svg');
+}
+
+#selectWithIcon option[value="+962"] {
+    background-image: url('images/flag-icons-main/flags/4x3/jo.svg');
+}
+
+#selectWithIcon option[value="+7"] {
+    background-image: url('images/flag-icons-main/flags/4x3/kz.svg');
+}
+
+#selectWithIcon option[value="+254"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ke.svg');
+}
+
+#selectWithIcon option[value="+686"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ki.svg');
+}
+
+#selectWithIcon option[value="+965"] {
+    background-image: url('images/flag-icons-main/flags/4x3/kw.svg');
+}
+
+#selectWithIcon option[value="+996"] {
+    background-image: url('images/flag-icons-main/flags/4x3/kg.svg');
+}
+
+#selectWithIcon option[value="+856"] {
+    background-image: url('images/flag-icons-main/flags/4x3/la.svg');
+}
+
+#selectWithIcon option[value="+371"] {
+    background-image: url('images/flag-icons-main/flags/4x3/lv.svg');
+}
+
+#selectWithIcon option[value="+961"] {
+    background-image: url('images/flag-icons-main/flags/4x3/lb.svg');
+}
+
+#selectWithIcon option[value="+266"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ls.svg');
+}
+
+#selectWithIcon option[value="+231"] {
+    background-image: url('images/flag-icons-main/flags/4x3/lr.svg');
+}
+
+#selectWithIcon option[value="+218"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ly.svg');
+}
+
+#selectWithIcon option[value="+423"] {
+    background-image: url('images/flag-icons-main/flags/4x3/li.svg');
+}
+
+#selectWithIcon option[value="+370"] {
+    background-image: url('images/flag-icons-main/flags/4x3/lt.svg');
+}
+
+#selectWithIcon option[value="+352"] {
+    background-image: url('images/flag-icons-main/flags/4x3/lu.svg');
+}
+
+#selectWithIcon option[value="+389"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mk.svg');
+}
+
+#selectWithIcon option[value="+261"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mg.svg');
+}
+
+#selectWithIcon option[value="+265"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mw.svg');
+}
+
+#selectWithIcon option[value="+60"] {
+    background-image: url('images/flag-icons-main/flags/4x3/my.svg');
+}
+
+#selectWithIcon option[value="+960"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mv.svg');
+}
+
+#selectWithIcon option[value="+223"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ml.svg');
+}
+
+#selectWithIcon option[value="+356"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mt.svg');
+}
+
+#selectWithIcon option[value="+692"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mh.svg');
+}
+
+#selectWithIcon option[value="+222"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mr.svg');
+}
+
+#selectWithIcon option[value="+230"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mu.svg');
+}
+
+#selectWithIcon option[value="+52"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mx.svg');
+}
+
+#selectWithIcon option[value="+691"] {
+    background-image: url('images/flag-icons-main/flags/4x3/fm.svg');
+}
+
+#selectWithIcon option[value="+373"] {
+    background-image: url('images/flag-icons-main/flags/4x3/md.svg');
+}
+
+#selectWithIcon option[value="+377"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mc.svg');
+}
+
+#selectWithIcon option[value="+976"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mn.svg');
+}
+
+#selectWithIcon option[value="+382"] {
+    background-image: url('images/flag-icons-main/flags/4x3/me.svg');
+}
+
+#selectWithIcon option[value="+212"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ma.svg');
+}
+
+#selectWithIcon option[value="+258"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mz.svg');
+}
+
+#selectWithIcon option[value="+95"] {
+    background-image: url('images/flag-icons-main/flags/4x3/mm.svg');
+}
+
+#selectWithIcon option[value="+264"] {
+    background-image: url('images/flag-icons-main/flags/4x3/na.svg');
+}
+
+#selectWithIcon option[value="+674"] {
+    background-image: url('images/flag-icons-main/flags/4x3/nr.svg');
+}
+
+#selectWithIcon option[value="+977"] {
+    background-image: url('images/flag-icons-main/flags/4x3/np.svg');
+}
+
+#selectWithIcon option[value="+31"] {
+    background-image: url('images/flag-icons-main/flags/4x3/nl.svg');
+}
+
+#selectWithIcon option[value="+64"] {
+    background-image: url('images/flag-icons-main/flags/4x3/nz.svg');
+}
+
+#selectWithIcon option[value="+505"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ni.svg');
+}
+
+#selectWithIcon option[value="+227"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ne.svg');
+}
+
+#selectWithIcon option[value="+234"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ng.svg');
+}
+
+#selectWithIcon option[value="+850"] {
+    background-image: url('images/flag-icons-main/flags/4x3/kp.svg');
+}
+
+#selectWithIcon option[value="+47"] {
+    background-image: url('images/flag-icons-main/flags/4x3/no.svg');
+}
+
+#selectWithIcon option[value="+968"] {
+    background-image: url('images/flag-icons-main/flags/4x3/om.svg');
+}
+
+#selectWithIcon option[value="+92"] {
+    background-image: url('images/flag-icons-main/flags/4x3/pk.svg');
+}
+
+#selectWithIcon option[value="+680"] {
+    background-image: url('images/flag-icons-main/flags/4x3/pw.svg');
+}
+
+#selectWithIcon option[value="+970"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ps.svg');
+}
+
+#selectWithIcon option[value="+507"] {
+    background-image: url('images/flag-icons-main/flags/4x3/pa.svg');
+}
+
+#selectWithIcon option[value="+675"] {
+    background-image: url('images/flag-icons-main/flags/4x3/pg.svg');
+}
+
+#selectWithIcon option[value="+595"] {
+    background-image: url('images/flag-icons-main/flags/4x3/py.svg');
+}
+
+#selectWithIcon option[value="+51"] {
+    background-image: url('images/flag-icons-main/flags/4x3/pe.svg');
+}
+
+#selectWithIcon option[value="+63"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ph.svg');
+}
+
+#selectWithIcon option[value="+48"] {
+    background-image: url('images/flag-icons-main/flags/4x3/pl.svg');
+}
+
+#selectWithIcon option[value="+351"] {
+    background-image: url('images/flag-icons-main/flags/4x3/pt.svg');
+}
+
+#selectWithIcon option[value="+974"] {
+    background-image: url('images/flag-icons-main/flags/4x3/qa.svg');
+}
+
+#selectWithIcon option[value="+40"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ro.svg');
+}
+
+#selectWithIcon option[value="+7"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ru.svg');
+}
+
+#selectWithIcon option[value="+250"] {
+    background-image: url('images/flag-icons-main/flags/4x3/rw.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/kn.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/lc.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/vc.svg');
+}
+
+#selectWithIcon option[value="+685"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ws.svg');
+}
+
+#selectWithIcon option[value="+378"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sm.svg');
+}
+
+#selectWithIcon option[value="+239"] {
+    background-image: url('images/flag-icons-main/flags/4x3/st.svg');
+}
+
+#selectWithIcon option[value="+966"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sa.svg');
+}
+
+#selectWithIcon option[value="+221"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sn.svg');
+}
+
+#selectWithIcon option[value="+381"] {
+    background-image: url('images/flag-icons-main/flags/4x3/rs.svg');
+}
+
+#selectWithIcon option[value="+248"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sc.svg');
+}
+
+#selectWithIcon option[value="+232"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sl.svg');
+}
+
+#selectWithIcon option[value="+65"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sg.svg');
+}
+
+#selectWithIcon option[value="+421"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sk.svg');
+}
+
+#selectWithIcon option[value="+386"] {
+    background-image: url('images/flag-icons-main/flags/4x3/si.svg');
+}
+
+#selectWithIcon option[value="+677"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sb.svg');
+}
+
+#selectWithIcon option[value="+252"] {
+    background-image: url('images/flag-icons-main/flags/4x3/so.svg');
+}
+
+#selectWithIcon option[value="+27"] {
+    background-image: url('images/flag-icons-main/flags/4x3/za.svg');
+}
+
+#selectWithIcon option[value="+82"] {
+    background-image: url('images/flag-icons-main/flags/4x3/kr.svg');
+}
+
+#selectWithIcon option[value="+211"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ss.svg');
+}
+
+#selectWithIcon option[value="+34"] {
+    background-image: url('images/flag-icons-main/flags/4x3/es.svg');
+}
+
+#selectWithIcon option[value="+94"] {
+    background-image: url('images/flag-icons-main/flags/4x3/lk.svg');
+}
+
+#selectWithIcon option[value="+249"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sd.svg');
+}
+
+#selectWithIcon option[value="+597"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sr.svg');
+}
+
+#selectWithIcon option[value="+46"] {
+    background-image: url('images/flag-icons-main/flags/4x3/se.svg');
+}
+
+#selectWithIcon option[value="+41"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ch.svg');
+}
+
+#selectWithIcon option[value="+963"] {
+    background-image: url('images/flag-icons-main/flags/4x3/sy.svg');
+}
+
+#selectWithIcon option[value="+886"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tw.svg');
+}
+
+#selectWithIcon option[value="+992"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tj.svg');
+}
+
+#selectWithIcon option[value="+255"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tz.svg');
+}
+
+#selectWithIcon option[value="+66"] {
+    background-image: url('images/flag-icons-main/flags/4x3/th.svg');
+}
+
+#selectWithIcon option[value="+670"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tl.svg');
+}
+
+#selectWithIcon option[value="+228"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tg.svg');
+}
+
+#selectWithIcon option[value="+676"] {
+    background-image: url('images/flag-icons-main/flags/4x3/to.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tt.svg');
+}
+
+#selectWithIcon option[value="+216"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tn.svg');
+}
+
+#selectWithIcon option[value="+90"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tr.svg');
+}
+
+#selectWithIcon option[value="+993"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tm.svg');
+}
+
+#selectWithIcon option[value="+688"] {
+    background-image: url('images/flag-icons-main/flags/4x3/tv.svg');
+}
+
+#selectWithIcon option[value="+256"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ug.svg');
+}
+
+#selectWithIcon option[value="+380"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ua.svg');
+}
+
+#selectWithIcon option[value="+971"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ae.svg');
+}
+
+#selectWithIcon option[value="+44"] {
+    background-image: url('images/flag-icons-main/flags/4x3/gb.svg');
+}
+
+#selectWithIcon option[value="+1"] {
+    background-image: url('images/flag-icons-main/flags/4x3/us.svg');
+}
+
+#selectWithIcon option[value="+598"] {
+    background-image: url('images/flag-icons-main/flags/4x3/uy.svg');
+}
+
+#selectWithIcon option[value="+998"] {
+    background-image: url('images/flag-icons-main/flags/4x3/uz.svg');
+}
+
+#selectWithIcon option[value="+678"] {
+    background-image: url('images/flag-icons-main/flags/4x3/vu.svg');
+}
+
+#selectWithIcon option[value="+39"] {
+    background-image: url('images/flag-icons-main/flags/4x3/va.svg');
+}
+
+#selectWithIcon option[value="+58"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ve.svg');
+}
+
+#selectWithIcon option[value="+84"] {
+    background-image: url('images/flag-icons-main/flags/4x3/vn.svg');
+}
+
+#selectWithIcon option[value="+967"] {
+    background-image: url('images/flag-icons-main/flags/4x3/ye.svg');
+}
+
+#selectWithIcon option[value="+260"] {
+    background-image: url('images/flag-icons-main/flags/4x3/zm.svg');
+}
+
+#selectWithIcon option[value="+263"] {
+    background-image: url('images/flag-icons-main/flags/4x3/zw.svg');
+}

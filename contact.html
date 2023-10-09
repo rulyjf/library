@@ -1,0 +1,118 @@
+<section class="services-section section-padding" id="section_3">
+    <div class="section-overlay"></div>
+    <div class="container">
+        <div class="row" id="myAbout">
+                            
+        </div>
+    </div>
+</section>
+<section class="section-padding section-bg">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-12">
+                <h3 class="mb-4 pb-2">We'd love to hear from you</h3>
+            </div>
+
+            <div class="col-lg-6 col-12">
+                <form action="#" method="post" class="custom-form contact-form needs-validation"
+                novalidate role="form">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="form-floating">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name"
+                                    required="true">
+                                <label for="floatingInput">Name</label>
+                                <div class="valid-feedback">look ok ... </div>
+                                <div class="invalid-feedback">Please fill out this field.</div>  
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="form-floating">
+                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                                    placeholder="Email address" required="true">
+                                <label for="floatingInput">Email address</label>
+                                <div class="valid-feedback">look ok ... </div>
+                                <div class="invalid-feedback">Please enter a valid email</div>  
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-12">
+                            <div class="form-floating">
+                                <select class="form-control" id="satisfaction">
+                                    <option value="5"> Very Satisfied</option>
+                                    <option value="4"> Satisfied</option>
+                                    <option value="3"> Neutral</option>
+                                    <option value="2"> Dissatisfied</option>
+                                    <option value="1"> Very Dissatisfied</option>
+                                </select>
+                                <label for="sex">User Satisfaction</label>
+                            </div>
+
+                            <div class="form-floating">
+                                <select class="form-control" id="recomend">
+                                    <option value="10"> Extremely likely</option>
+                                    <option value="9"> Very Likely</option>
+                                    <option value="8"> Likely</option>
+                                    <option value="7"> Slighly Likely</option>
+                                    <option value="6"> Neutral</option>
+                                    <option value="5"> Slighly Unlikely</option>
+                                    <option value="4"> Unlikely</option>
+                                    <option value="3"> Very Unlikely</option>
+                                    <option value="2"> Extremely Unlikely</option>
+                                    <option value="1"> Not at All</option>
+                                </select>
+                                <label for="sex">would your recommend our web to a friend or colleague?</label>
+                            </div>
+
+                            <div class="form-floating">
+                                <textarea class="form-control" id="message" name="message"
+                                    placeholder="Tell me about the project" required="true"></textarea>
+                                <label for="floatingTextarea">Tell us about our Websites</label>
+                                <div class="valid-feedback">look ok ... </div>
+                                <div class="invalid-feedback">Please fill out this field.</div>  
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-12 ms-auto">
+                            <button id="btn_feedback" name="btn_feedback" type="submit" class="form-control">Submit</button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-5 col-12 mx-auto mt-5 mt-lg-0">
+                <iframe class="google-map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d861.2314031686406!2d103.74651039040003!3d1.3630060036187919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssg!4v1696755707023!5m2!1sen!2ssg" 
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <h5 class="mt-4 mb-2">Silent Library</h5>
+
+                <p>Bukit batok west ave 4, SG 650417</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div class="modal" id="myFeedback" role="dialog" style="z-index:9991;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Thank you from Silent Library</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for feedback, your opinion will help use to improve our system.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" id="btnClose_myFeedback"
+                    data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

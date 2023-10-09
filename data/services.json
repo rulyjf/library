@@ -1,0 +1,98 @@
+{
+    "membershipProcedure": [
+        {
+            "name": "Public User",
+            "steps": [
+                {
+                    "label": "Step",
+                    "stepNumber": "1",
+                    "icon": "bi-1-circle-fill",
+                    "title": "Visit the Library",
+                    "description": "Visit our library during operating hours to begin the membership process or can be 24-Hours online registration."
+                },
+                {
+                    "label": "Step",
+                    "stepNumber": "2",
+                    "icon": "bi-2-circle-fill",
+                    "title": "Fill out an Application",
+                    "description": "Fill out a library membership application form available at the library's front desk or online. You will need to provide proof of address and a valid ID."
+                },
+                {
+                    "label": "Step",
+                    "stepNumber": "3",
+                    "icon": "bi-3-circle-fill",
+                    "title": "Receive Your Library Card",
+                    "description": "Once your application is processed, you will receive your library card. This card allows you to borrow books and access library services."
+                },
+                {
+                    "label": "Step",
+                    "stepNumber": "4",
+                    "icon": "bi-4-circle-fill",
+                    "title": "Explore the Library",
+                    "description": "Take some time to explore the library's collections, facilities, and services. Our staff can assist you in finding materials of interest."
+                },
+                {
+                    "label": "Step",
+                    "stepNumber": "5",
+                    "icon": "bi-5-circle-fill",
+                    "title": "Borrowing Books",
+                    "description": "With your library card, you can borrow books and other materials. Simply bring the items you wish to borrow to the front desk, and our staff will assist you in the checkout process."
+                },
+                {
+                    "label": "fine",
+                    "stepNumber": "",
+                    "icon": "bi-currency-bitcoin",
+                    "title": "Fees & Fines for Public",
+                    "description": "Late return fines are charged for overdue materials to encourage timely returns and ensure fair access to library resources.",
+                    "fineAmount": "$0.25 per day",
+                    "maximumFine": "$5.00",
+                    "gracePeriod": "7 days"
+                }
+            ]
+        },
+        {
+            "name": "Our Member",
+            "steps": [
+                {
+                    "label": "Step",
+                    "stepNumber": 1,
+                    "icon": "bi-1-circle-fill",
+                    "title": "Library Membership",
+                    "description": "To access our member-only library services, you must first become a public library member as outlined in the previous section."
+                },
+                {
+                    "label": "Step",
+                    "stepNumber": 2,
+                    "icon": "bi-2-circle-fill",
+                    "title": "Upgrade to Member Library Status",
+                    "description": "Once you are a public library member, you can inquire about upgrading to member library status. This may involve additional fees or requirements."
+                },
+                {
+                    "label": "Step",
+                    "stepNumber": 3,
+                    "icon": "bi-3-circle-fill",
+                    "title": "Access Member-Only Services",
+                    "description": "With member library status, you gain access to specialized services, such as interlibrary loans, research databases, and extended borrowing periods."
+                },
+                {
+                    "label": "fine",
+                    "stepNumber": "",
+                    "icon": "bi-currency-bitcoin",
+                    "title": "Fees & Fines for Member",
+                    "description": "Late return fines are charged for overdue materials to encourage timely returns and ensure fair access to library resources.",
+                    "fineAmount": "$0.25 per day",
+                    "maximumFine": "$5.00",
+                    "gracePeriod": "7 days"
+                },
+                {
+                    "label": "membership",
+                    "stepNumber": "",
+                    "icon": "bi-person-badge-fill",
+                    "title": "Membership",
+                    "description": "Member library status may require an annual membership fee, which helps support the additional services and resources available exclusively to members.",
+                    "feeAmount": "$20.00 per year"
+                }
+            ]
+        }
+    ]
+}

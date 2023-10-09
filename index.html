@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    <title>Silent Library Online</title>                             
+        <link href="css/bootstrap.min.1.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/rlibmain.css" rel="stylesheet">      
+
+    </head>
+    
+    <body class="topics-listing-page" id="top">
+        <!-- Main Begin -->
+        <main>
+            <!-- Navigation -->
+            <nav class="navbar navbar-expand-lg" style="z-index: 9989;">
+                <div class="container">               
+                    <div class="navbar-brand mb-2" href="#" style="position: relative;margin: 0px;padding: 0px;border: 0px;">
+                        <i class="fa fa-university" style="vertical-align: middle"></i>
+                        <span style="vertical-align:middle;font-size: medium;">Silent Library</span>
+                        <ol class="breadcrumb col-0" id="myBread" style="background: transparent ;position: absolute;transform:translate(-1%,140%);width:300%;font-size:12px;padding: 0px;" >
+                            <li class="breadcrumb-item">:: <a href="#" data-target="home">Home</a></li>
+                        </ol>
+                    </div>
+                    
+   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#" data-target="home">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#" data-target="catalog">Catalog</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#" data-target="services">Services</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#" data-target="event">Events</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#" data-target="faq">FAQs</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#" data-target="contact">About Us</a>
+                            </li>
+
+                            <li class="nav-item" id="navLogin">
+                                <a class="nav-link click-scroll" href="#" data-target="login">Login</a>
+                            </li>
+
+                            <li class="nav-item" id="navLogout">
+                                <a class="nav-link click-scroll" href="#" data-target="logout">Logout</a>
+                            </li>
+
+                            <li class="nav-item d-block d-sm-none">
+                                <hr>
+                            </li>
+
+                            <li class="nav-item d-block d-sm-none">
+                                <a class="nav-link click-scroll" href="#" data-target="test">Test</a>
+                            </li>
+                        </ul>
+                        
+                     
+                        <div class="nav-item dropdown d-none d-lg-block p-0 m-0" >
+                          
+                            <a href="#" class="nav-link" id="profileToggle" style="float:right;">                               
+                                    <div class="profile_pic mb-2" sytle="margin:0px;">
+                                        <script>
+                                          document.write('<img src="images/profiles/'+ localStorage.getItem("icon") +'" alt="..." class="img-circle profile_img">');
+                                        </script>  
+                                    </div>
+                            </a>
+                            
+                            <div class="profile-content collapse" id="profileContent" style="transform:translate(-30%,-3%);">
+                                <!-- Profile content goes here -->
+                                <p class="m-0 p-1" style="font-size: 12px;"><b><script>document.write(localStorage.getItem("name"));</script></b></p>
+                                <p class="m-0 p-1" style="font-size: 12px;"><i></i><script>document.write(localStorage.getItem("role"));</script></p></p>
+                                <hr class="m-1 p-0"/>
+                                <ul >
+                                    <li class="nav-item" id="navProfile">
+                                        <a class="nav-link click-scroll" href="#" data-target="admin">My Profile</a>
+                                    </li>
+                                    <li class="nav-item" id="navHistory">
+                                        <a class="nav-link click-scroll" href="#" data-target="admin">History Read</a>
+                                    </li>
+                                    <li class="nav-item" id="navCurrent">
+                                        <a class="nav-link click-scroll" href="#" data-target="admin">Current Book</a>
+                                    </li>
+
+                                    <li class="nav-item" id="navListUser">
+                                        <a class="nav-link click-scroll" href="#" data-target="admin">List User</a>
+                                    </li>
+
+                                    <li class="nav-item" id="navListBook">
+                                        <a class="nav-link click-scroll" href="#" data-target="admin">List Book</a>
+                                    </li>
+
+                                    <li class="nav-item" id="navTransaction">
+                                        <a class="nav-link click-scroll" href="#" data-target="admin">List Transaction</a>
+                                    </li>
+
+                                </ul>
+                              </div>
+                        
+                        </div>
+                    </div>
+                </div>           
+            </nav>  
+            </nav>
+            <div  id="app"> 
+            <!-- Content Begin -->
+             
+            <!-- Content End -->            
+            </div>     
+        </main>
+        <!-- End of MAIN -->
+        
+        <!-- FOOTER AREA -->        
+        <footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">             
+
+                    <div class="col-lg-2 col-md-2 col-3">
+                        <h6 class="site-footer-title mb-3">Catalog</h6>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="catalog?analytics" class="site-footer-link">Analytics</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link" data-target="catalog?fullstack">Fullstack</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link" data-target="catalog?marketing">Marketing</a>
+                            </li>
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link" data-target="catalog?finance">Finance</a>
+                            </li>
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link" data-target="catalog?designThinking">Design Thinking</a>
+                            </li>                            
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-3">
+                        <h6 class="site-footer-title mb-3">Services</h6>
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="services" class="site-footer-link">For Public</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Our Member</a>
+                            </li>
+                         
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-3">
+                        <h6 class="site-footer-title mb-3">Event</h6>
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="event" class="site-footer-link">List of Event</a>
+                            </li>      
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-3">
+                        <h6 class="site-footer-title mb-3">FAQ</h6>
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="faq" class="site-footer-link">Library Membership</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="faq" class="site-footer-link">Borrowing Book</a>
+                            </li>
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="faq" class="site-footer-link">Library Event</a>
+                            </li>               
+                        </ul>
+                    </div>                    
+                    <div class="col-lg-2 col-md-2 col-3 mb-2 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">About Us</h6>
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="contact" class="site-footer-link">Vision & Mission</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="contact" class="site-footer-link">History & Journey</a>
+                            </li>
+                            <li class="site-footer-link-item">
+                                <a href="#" data-target="contact" class="site-footer-link">Feedback</a>
+                            </li>               
+                        </ul>
+                        <p class="text-white d-flex mb-1">
+                            <a href="tel: 305-240-9671" class="site-footer-link">
+                                +65 9888 9988
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="mailto:info@company.com" class="site-footer-link">
+                                info@silent.library.com.sg
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                        <div class="container">                            
+                            <span class="fa fa-university fa-3x" style="vertical-align: middle;"></span>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </footer>
+       
+        <div class="spinner" style="display:none;"  id="pleaseWaitDialog" data-backdrop="static" data-keyboard="false">
+            <div class="modal-body">
+                <div id="ajax_loader">
+                    <img src="images\ajax-loading.gif">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="myLogoutModal" role="dialog" style="z-index:9991;">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Silent Library</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Thank you for your visit, take care and see you again.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" id="btnClose_myLogoutModal" data-dismiss="modal">Bye</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/crypto-js.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom-helper.js"></script>
+        <script src="js/custom.js"></script>
+
+
+    </body>
+</html>

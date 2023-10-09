@@ -1,0 +1,37 @@
+{
+    "aboutUs": {
+        "vision": "To be the community's leading resource for knowledge, learning, and enrichment, fostering a love for reading and lifelong learning.",
+        "mission": "Our mission is to provide a welcoming and inclusive space that offers access to a diverse collection of resources, services, and programs. We aim to inspire curiosity, creativity, and a passion for knowledge among our patrons.",
+        "history": "Founded in 2020, our library has been serving the community for over five decades. We started as a small collection of books in a single room and have grown into a vibrant hub for education, culture, and community engagement.",
+        "yearlyReport": [
+            {
+                "year": 2022,
+                "highlights": [
+                    "Expanded our digital collection with 1,000 new e-books and audiobooks.",
+                    "Hosted 50+ educational programs and workshops for all age groups.",
+                    "Increased our membership by 15% through community outreach efforts.",
+                    "Initiated a library renovation project to create a more modern and accessible space for our patrons."
+                ],
+                "challenges": [
+                    "Faced budget constraints that affected the acquisition of new materials.",
+                    "Adapted to COVID-19 restrictions by offering more virtual programs and services.",
+                    "Addressed maintenance issues in our aging building to ensure the safety and comfort of our visitors."
+                ]
+            },
+            {
+                "year": 2021,
+                "highlights": [
+                    "Launched a new website with improved online catalog and user-friendly features.",
+                    "Celebrated our library's 56th anniversary with a series of community events.",
+                    "Collaborated with local schools to promote literacy and provide resources to students.",
+                    "Introduced a book donation drive that collected over 1,500 books for underserved communities."
+                ],
+                "challenges": [
+                    "Experienced reduced in-person visits due to the pandemic but adapted with curbside pickup and online services.",
+                    "Struggled with limited funding for facility maintenance and expansion.",
+                    "Continued efforts to address issues of digital equity and access in the community."
+                ]
+            }
+        ]
+    }
+}

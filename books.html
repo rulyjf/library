@@ -1,0 +1,19 @@
+<script src="js/jquery.min.js"></script>
+<script src="js/custom-helper.js"></script>
+<script>
+
+const cat = getCatalog();
+
+  categories = Object.values(cat.categories);
+  
+  categories.forEach(cat => {
+    const subc = Object.values(cat.subcategories);
+    subc.forEach(sub => {
+      const books = Object.values(sub.books);
+      books.forEach(book => {
+        document.write(book.rID + " - " + book.title + " - " + book.author+"<br/>");
+      });
+    });
+  });
+  alert("test");
+</script>

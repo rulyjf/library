@@ -1,0 +1,137 @@
+<div class="col-md-12 col-sm-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Profiles <small>update</small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Settings 1</a>
+                        <a class="dropdown-item" href="#">Settings 2</a>
+                    </div>
+                </li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <form class="" action="#" method="post" novalidate>
+                <span class="section">Personal Info</span>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Name<span class="required">*</span></label>
+                    <div class="col-md-6 col-sm-6">
+                        <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" id="name" placeholder="ex. John f. Kennedy" required="required" />
+                    </div>
+                </div>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Age <span class="required">*</span></label>
+                    <div class="col-md-2 col-sm-2">
+                        <input class="form-control" type="number" class='number' name="age" id="age" data-validate-minmax="2,100" required='required'></div>
+                </div>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Gender <span class="required">*</span></label>
+                    <div class="col-md-2 col-sm-2">
+                        <select class="form-control" name="sex" id="sex" required='required'>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Secret</option>
+                         </select>   
+                        </div>
+                </div>    
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Residence Status <span class="required">*</span></label>
+                    <div class="col-md-3 col-sm-3">
+                        <select class="form-control" name="residence" id="residence" required='required'>
+                            <option>Singaporean</option>
+                            <option>SPR</option>
+                            <option>Foreigner</option>
+                         </select>   
+                        </div>
+                </div>                    
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">email<span class="required">*</span></label>
+                    <div class="col-md-6 col-sm-6">
+                        <input class="form-control" name="email" id="email" class='email' required="required" type="email" /></div>
+                </div>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Confirm email address<span class="required">*</span></label>
+                    <div class="col-md-6 col-sm-6">
+                        <input class="form-control" type="email" class='email' name="confirm_email" id="confirm_email" data-validate-linked='email' required='required' /></div>
+                </div>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Telephone<span class="required">*</span></label>
+                    <div class="col-md-6 col-sm-6">
+                        <input class="form-control" type="tel" class='tel' name="mobilePhone" id="mobilePhone" required='required' data-validate-length-range="8,20" /></div>
+                </div>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Block <span class="required">*</span></label>
+                    <div class="col-md-2 col-sm-2">
+                        <input class="form-control" type="number" class='number' name="block" id="block" data-validate-minmax="1,2000" required='required'></div>
+                </div>  
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Floor-Number<span class="required">*</span></label>
+                    <div class="col-md-6 col-sm-6">
+                        <input class="form-control" data-validate-length-range="3" data-validate-words="1" name="floorNumber" id="floorNumber" placeholder="#01-11" required="required" />
+                    </div>
+                </div>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Address<span class="required">*</span></label>
+                    <div class="col-md-6 col-sm-6">
+                        <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="address" id="address" placeholder="Orchad Road" required="required" />
+                    </div>
+                </div>
+                <div class="field item form-group">
+                    <label class="col-form-label col-md-3 col-sm-3  label-align">Postal Code <span class="required">*</span></label>
+                    <div class="col-md-3 col-sm-3">
+                        <input class="form-control" type="number" class='number' name="postal_code" id="postal_code" data-validate-minmax="100000,999999" required='required'></div>
+                </div> 
+                <div class="ln_solid">
+                    <div class="form-group">
+                        <div class="col-md-6 offset-md-3">
+                            <button type='submit' class="btn btn-primary" id="btn_profileSave">Save</button>
+                        </div>
+                    </div>
+                </div>
+                <input class="form-control" type="hidden" name="userid" id="userid" value="">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal" id="myProfileUpdated" role="dialog" style="z-index:9991;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Profile Updated</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Your profile has been updated, thanks</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" id="btnClose_myProfileUpdated"
+                    data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        // initialize a validator instance from the "FormValidator" constructor.
+        // A "<form>" element is optionally passed as an argument, but is not a must
+        var validator = new FormValidator({
+            "events": ['blur', 'input', 'change']
+        }, document.forms[0]);
+   
+
+        $('.toggleValidationTooltips').change(function() {
+            validator.settings.alerts = !this.checked;
+            if (this.checked)
+                $('form .alert').remove();
+        }).prop('checked', false);
+
+    </script>

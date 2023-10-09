@@ -1,0 +1,94 @@
+{
+    "libraryEvents": [
+        {
+            "id" : 1,
+            "eventName": "Book Reading: 'The Great Gatsby'",
+            "icon":"bi-bank",
+            "date": "2023-10-01",
+            "time": "3:00 PM - 4:30 PM",
+            "location": "Library Auditorium",
+            "description": "Join us for a special book reading of F. Scott Fitzgerald's classic novel 'The Great Gatsby.' Refreshments will be provided."
+        },
+        {
+            "id" : 2,
+            "eventName": "Children's Story Hour",
+            "icon":"bi-balloon-heart",
+            "date": "2023-10-05",
+            "time": "10:00 AM - 11:00 AM",
+            "location": "Children's Section",
+            "description": "Bring your kids for an interactive story hour filled with fun stories, songs, and activities suitable for young readers."
+        },
+        {
+            "id" : 3,
+            "eventName": "Writing Workshop: Creative Writing Techniques",
+            "date": "2023-10-25",
+            "icon":"bi-pencil",
+            "time": "6:30 PM - 8:00 PM",
+            "location": "Library Meeting Room",
+            "description": "Explore creative writing techniques with experienced authors. All skill levels are welcome. Please bring your writing materials."
+        },
+        {
+            "id" : 4,
+            "eventName": "Teen Book Club: 'The Hunger Games'",
+            "date": "2023-10-28",
+            "icon":"bi-book",
+            "time": "4:00 PM - 5:30 PM",
+            "location": "Teen Lounge",
+            "description": "Calling all teens! Join us to discuss 'The Hunger Games' by Suzanne Collins. Snacks and lively discussion guaranteed."
+        },
+        {
+            "id" : 5,
+            "eventName": "Library Tour",
+            "date": "2023-11-05",
+            "icon":"bi-bank2",
+            "time": "11:00 AM - 12:00 PM",
+            "location": "Library Main Entrance",
+            "description": "New to the library? Join us for a guided tour to explore our collections, services, and facilities."
+        },
+        {
+            "id" : 6,
+            "eventName": "Author Talk: 'Best-Selling Mysteries'",
+            "date": "2023-11-12",
+            "icon":"bi-person-circle",
+            "time": "2:00 PM - 3:30 PM",
+            "location": "Library Auditorium",
+            "description": "Meet acclaimed mystery authors and hear about their best-selling works. Book signing session to follow."
+        },
+        {
+            "id" : 7,
+            "eventName": "Art Exhibition: Local Artists' Showcase",
+            "date": "2023-11-18",
+            "icon":"bi-person-arms-up",
+            "time": "10:00 AM - 5:00 PM",
+            "location": "Library Art Gallery",
+            "description": "Explore the creativity of local artists. Their artwork will be on display throughout the day."
+        },
+        {
+            "id" : 8,
+            "eventName": "Family Movie Night: 'Finding Nemo'",
+            "date": "2023-11-22",
+            "icon":"bi-water",
+            "time": "6:00 PM - 8:00 PM",
+            "location": "Library Courtyard",
+            "description": "Join us for an outdoor screening of the family-friendly movie Finding Nemo. Bring your blankets."
+        },
+        {
+            "id" : 9,
+            "eventName": "Tech Workshop: Introduction to Coding",
+            "date": "2023-11-28",
+            "icon":"bi-code-slash",
+            "time": "4:30 PM - 6:00 PM",
+            "location": "Library Computer Lab",
+            "description": "Learn the basics of coding with hands-on exercises. No prior experience required."
+        },
+        {
+            "id" : 10,
+            "eventName": "Holiday Storytelling for Kids",
+            "date": "2023-12-03",
+            "icon":"bi-balloon",
+            "time": "11:30 AM - 12:30 PM",
+            "location": "Children's Section",
+            "description": "Celebrate the holiday season with festive stories and activities for kids."
+        }
+    ]
+}

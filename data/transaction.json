@@ -1,0 +1,52 @@
+{
+    "borrowTransactions": [
+        {
+            "transactionID": "BT001",
+            "memberID": "LM001",
+            "itemID": "ML001",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "dueDate": "2023-10-05",
+            "transactionDate": "2023-10-10",
+            "fine": 1.2,
+            "returnDate": null,
+            "status": "Borrowed"
+        },
+        {
+            "transactionID": "BT002",
+            "memberID": "ML002",
+            "itemID": "005",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "dueDate": "2023-10-02",
+            "transactionDate": "2023-10-10",
+            "fine": 1.2,
+            "returnDate": "2023-10-28",
+            "status": "Returned"
+        },
+        {
+            "transactionID": "BT003",
+            "memberID": "LM003",
+            "itemID": "DS001",
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "dueDate": "2023-10-01",
+            "transactionDate": "2023-10-08",
+            "fine": 1.2,
+            "returnDate": null,
+            "status": "Borrowed"
+        },        
+        {
+            "transactionID": "BT003",
+            "memberID": "005",
+            "itemID": "DS002",
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "dueDate": "2023-09-27",
+            "transactionDate": "2023-09-20",
+            "fine": 1.2,
+            "returnDate": null,
+            "status": "Borrowed"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+<header class="site-header d-flex flex-column justify-content-center align-items-center">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-lg-5 col-12 mb-5">
+                <h2 class="text-white" id="title">Introduction to <br> Web Design 101</h2>
+
+                <div class="d-flex align-items-center mt-5" id="borrow">
+                    
+                </div>
+                <div class="d-flex align-items-center mt-5">
+                    <a href="#top" class="custom-icon bi-bookmark smoothscroll" style="font-size: medium;"> Add to Shortlist</a>
+                </div>
+                <div class="d-flex align-items-center mt-1">
+                    <a href="#top" class="custom-icon bi-person-badge smoothscroll" style="font-size: medium;" id="author"></a>
+                </div>                
+                <div class="d-flex align-items-center mt-1">
+                    <a href="#top" class="custom-icon bi-calendar3 smoothscroll" style="font-size: medium;" id="publish"></a>
+                </div>
+                <div class="d-flex align-items-center mt-1">
+                    <a href="#top" class="custom-icon bi-qr-code smoothscroll" style="font-size: medium;" id="isbn"></a>
+                </div>
+                <div class="d-flex align-items-center mt-1">
+                    <a href="#top" class="custom-icon bi-globe smoothscroll" style="font-size: medium;" id="lang"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-12">
+                <div class="topics-detail-block bg-white shadow-lg" id="img" name="img">
+                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="topics-detail-block-image img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+
+<section class="cataloglist-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12 m-auto mt-4">
+              <h6 style="color:rgb(32, 21, 6);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" id="bookDescription"></h6>
+            </div>
+
+        </div>
+    </div>
+</section>
+<input type="hidden" id="rID" value="">
+<input type="hidden" id="rTitle" value="">
+<input type="hidden" id="rAuthor" value="">
+
+
+<div class="modal" id="myBorrow" role="dialog" style="z-index:9991;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Borrowing Book</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="notes"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="btnClose_myBorrow"
+                    data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="btnLogin_myBorrow"
+                    data-dismiss="modal">Login</button>
+                <button type="button" class="btn btn-primary" id="btnOk_myBorrow"
+                    data-dismiss="modal">Continue</button>
+            </div>
+        </div>
+    </div>
+</div>

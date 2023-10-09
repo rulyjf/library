@@ -1,0 +1,28 @@
+{
+    "userRoles": [
+        {
+            "roleID": "R001",
+            "roleName": "officer",
+            "shortDescription": "Librarian / Officer",            
+            "description": "Librarians manage and organize the library's resources, assist patrons, and oversee library operations."
+        },        
+        {
+            "roleID": "R003",
+            "roleName": "member",
+            "shortDescription": "Member",  
+            "description": "Library members have borrowing privileges and access to library materials and services."
+        },
+        {
+            "roleID": "R004",
+            "roleName": "admin",
+            "shortDescription": "Administrators",    
+            "description": "Administrators have access to the library's management system, allowing them to configure settings, manage user accounts, and monitor activities."
+        },
+        {
+            "roleID": "R005",
+            "roleName": "guest",
+            "shortDescription": "Guest",  
+            "description": "Guests have limited access to certain library resources and services, such as browsing the catalog or attending public events."
+        }
+    ]
+}

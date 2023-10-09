@@ -1,0 +1,82 @@
+<form class="" action="" method="post" novalidate>
+  
+    <span class="section">Roles Management</span>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Name</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="name" id="name" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Age</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="age" id="age" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Gender</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="sex" id="sex" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">email</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="email" id="email" disabled  />
+        </div>
+    </div>    
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Address</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="block" id="block" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align"></label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="address" id="address" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align"></label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="postalCode" id="postalCode" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Roles</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="roles" id="roles" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Registration</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="registrationDate" id="registrationDate" disabled  />
+        </div>
+    </div>  
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Verified Status</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="isVerified" id="isVerified" disabled  />
+        </div>
+    </div> 
+    <div class="ln_solid">
+        <div class="form-group">
+            <div class="col-md-6 offset-md-3">                
+                <button type='submit' id="btn_back_userrole" class="btn btn-info">Back</button>                
+                <button type='submit' id="btn_roles_member" class="btn btn-success">Set as Member</button>
+                <button type='submit' id="btn_roles_officer" class="btn btn-warning">Set as Officer</button>
+                <button type='submit' id="btn_roles_admin" class="btn btn-warning">Set as Admin </button>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="userid" name="userid" value="">
+</form>
+
+<script>
+    document.forms[0].onsubmit = function(e) {
+        alert('tests');
+    return false;
+    };
+</script>

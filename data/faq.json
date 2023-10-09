@@ -1,0 +1,97 @@
+{
+    "faqCategories": [
+        {
+            "rID":"catOne",
+            "categoryName": "Library Membership",
+            "faqs": [
+                {
+                    "rID":"faq1",
+                    "question": "How do I become a library member?",
+                    "answer": "To become a library member, visit our library in person and fill out a membership application form. You will need to provide proof of address and a valid ID."
+                },
+                {
+                    "rID":"faq2",
+                    "question": "Is library membership free?",
+                    "answer": "Yes, library membership is free for residents of our community. Non-residents may be subject to a small annual fee."
+                },
+                {
+                    "rID":"faq3",
+                    "question": "What are the membership benefits?",
+                    "answer": "Library members enjoy benefits such as borrowing books, accessing digital resources, and participating in library events and programs."
+                },
+                {
+                    "rID":"faq4",
+                    "question": "How do I renew my library card?",
+                    "answer": "Library cards can be renewed in person at the library. You will need to provide updated proof of address to renew your card."
+                },
+                {
+                    "rID":"faq5",
+                    "question": "Can I get a library card for my child?",
+                    "answer": "Yes, children can get library cards with the consent of a parent or guardian. Please visit the library to apply for a child's library card."
+                }
+            ]
+        },
+        {
+            "rID":"catTwo",
+            "categoryName": "Borrowing Books",
+            "faqs": [
+                {
+                    "rID":"faq6",
+                    "question": "How many books can I borrow at once?",
+                    "answer": "Library members can borrow up to 5 books at a time."
+                },
+                {
+                    "rID":"faq7",
+                    "question": "Can I return books after the due date?",
+                    "answer": "Yes, books can be returned after the due date, but late fees may apply. We encourage timely returns to make books available to other patrons."
+                },
+                {
+                    "rID":"faq8",
+                    "question": "What is the loan period for DVDs?",
+                    "answer": "The loan period for DVDs is 7 days. Please return them on time to avoid late fees."
+                },
+                {
+                    "rID":"faq9",
+                    "question": "How do I request a book that is checked out?",
+                    "answer": "You can place a hold on a checked-out book. Once it becomes available, you will be notified, and you can pick it up from the library."
+                },
+                {
+                    "rID":"faq10",
+                    "question": "Can I borrow e-books and audiobooks?",
+                    "answer": "Yes, we offer e-books and audiobooks through our digital library. You can borrow them using your library card."
+                }
+            ]
+        },
+        {
+            "rID":"catThree",
+            "categoryName": "Library Events",
+            "faqs": [
+                {
+                    "rID":"faq11",
+                    "question": "Are there any upcoming library events?",
+                    "answer": "Yes, we regularly host events such as book readings, workshops, and children's story hours. Check our events calendar on our website for upcoming programs."
+                },
+                {
+                    "rID":"faq12",
+                    "question": "How can I suggest an event or program?",
+                    "answer": "We welcome event suggestions from our community members. Please contact our library staff with your ideas, and we will consider them for future programs."
+                },
+                {
+                    "rID":"faq13",
+                    "question": "Do I need to register for library events?",
+                    "answer": "Registration requirements vary for different events. Check the event details on our website or contact us to learn more about registration."
+                },
+                {
+                    "rID":"faq14",
+                    "question": "Can I volunteer at library events?",
+                    "answer": "Yes, we often have volunteer opportunities for community members interested in helping with library events. Please inquire at the library."
+                },
+                {
+                    "rID":"faq15",
+                    "question": "What age groups do library events cater to?",
+                    "answer": "We offer events and programs for all age groups, including children, teens, and adults. Check our event listings for age-specific programs."
+                }
+            ]
+        }
+    ]
+}

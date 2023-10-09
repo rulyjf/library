@@ -1,0 +1,86 @@
+<form class="" action="" method="post" novalidate>   
+    <span class="section">Verification Update</span>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Name</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="name" id="name" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Age</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="age" id="age" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Gender</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="sex" id="sex" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">email</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="email" id="email" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">phone</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="phone" id="phone" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Address</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="block" id="block" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align"></label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="address" id="address" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align"></label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="postalCode" id="postalCode" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Residence Status</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="residence" id="residence" disabled  />
+        </div>
+    </div>
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Registration</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="registrationDate" id="registrationDate" disabled  />
+        </div>
+    </div>  
+    <div class="field item form-group">
+        <label class="col-form-label col-md-3 col-sm-3  label-align">Verified Status</label>
+        <div class="col-md-6 col-sm-6">
+            <input class="form-control"  name="isVerified" id="isVerified" disabled  />
+        </div>
+    </div> 
+    <div class="ln_solid">
+        <div class="form-group">
+            <div class="col-md-6 offset-md-3">                
+                <button type='submit' id="btn_back_user" class="btn btn-info">Back</button>                
+                <button type='submit' id="btn_not_verified" class="btn btn-warning">Not Verified</button>
+                <button type='submit' id="btn_verified" class="btn btn-success">Verified</button>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="userid" name="userid" value="">
+</form>
+
+<script>
+    document.forms[0].onsubmit = function(e) {
+        alert('tests');
+    return false;
+    };
+</script>
