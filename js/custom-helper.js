@@ -258,6 +258,9 @@ function convertTo24HourFormat(time12) {
 
   return time24;
 }
+if( localStorage.getItem("name") === undefined){
+  initialData();
+}
 
 
 
