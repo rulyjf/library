@@ -258,7 +258,7 @@ function convertTo24HourFormat(time12) {
 
   return time24;
 }
-if( localStorage.getItem("name") === undefined || localStorage.getItem("name") === null){
+if( localStorage.getItem("name") === undefined || localStorage.getItem("name") === null || localStorage.getItem("name") === ""){
   initialData();
 }
 
