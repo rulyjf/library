@@ -378,6 +378,7 @@ document.addEventListener("click", function (e) {
         id = document.getElementById("id").value;
         catalogDelete(cat,sub,id); 
         $('#myCatalogDelete').modal('hide');
+        loadCatalog(cat,sub,id);
         break;
       case "btnClose_myCatalogDelete":
         $('#myCatalogDelete').modal('hide');
@@ -777,12 +778,12 @@ function catalogDelete(
 ) {
 
   // Get current user daa
-  var cat = getCatalog();
-  
-  Object.values(cat.categories).filter(c => c.rID === cati).forEach(c => {
+  var cats = getCatalog();
+  cats.categories.filter(c => c.rID === cati).forEach(c => {
     Object.values(c.subcategories).filter(sub => sub.rID === subi).forEach(sub => {
-     
-      sub.books = Object.values(sub.books).filter( (a) => a.rID !== id);
+      filt = Object.values(sub.books).filter( (a) => a.rID.localeCompare(id) !== 0);
+      sub.books = filt;
+      //sub.book.pus = Object.values(sub.books).filter( (a) => a.rID !== id);
     }
     );
   }
@@ -791,7 +792,7 @@ function catalogDelete(
 
 
   // Step 3: Update local storage with the modified JSON data
-  localStorage.setItem('myCatalog', JSON.stringify(cat));
+  localStorage.setItem('myCatalog', JSON.stringify(cats));
 
 }
 
