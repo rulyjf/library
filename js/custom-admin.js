@@ -1,7 +1,7 @@
 function loadContent(page) {
   page = page.split('?');
 
-  if (page[0] !== 'logout') {
+  if (page[0] !== 'logout' && page[0] !== 'catalog_delete') {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", `${page[0]}.html`, true);
     xhr.onload = function () {
@@ -27,7 +27,9 @@ function loadContent(page) {
       }
     };
     xhr.send();
-  } else {
+  } else if (page[0]==='catalog_delete'){
+    controller(page);
+  } else{
     $('#myLogoutModal').modal('toggle');
   }
 }
@@ -85,6 +87,12 @@ function controller(page) {
       break;
     case 'transaction_history':
       loadTransactionHistory();
+      break;
+    case 'catalog_delete':
+      document.getElementById("cat").value = page[1].split(':')[0];
+      document.getElementById("sub").value = page[1].split(':')[1];
+      document.getElementById("id").value = page[1].split(':')[2];
+      $('#myCatalogDelete').modal('show');
       break;
     default:
       break;
@@ -248,27 +256,33 @@ document.addEventListener("click", function (e) {
         loadContent("catalog_new?" + cat + ":" + sub);
         break;
       case "btn_catalogSaveNew":
-        title = document.getElementById("title").value;
-        author = document.getElementById("author").value;
-        isbn = document.getElementById("isbn").value;
-        language = document.getElementById("language").value;
-        publicationYear = document.getElementById("publicationYear").value;
-        totalCopies = document.getElementById("totalCopies").value;
-        category = document.getElementById("cat").value;
-        subcategory = document.getElementById("subcat").value;
-        description = document.getElementById("description").value;
-        catalogNew(
-          title,
-          author,
-          isbn,
-          language,
-          publicationYear,
-          totalCopies,
-          description,
-          category,
-          subcategory
-        );
-        $('#myCatalogNew').modal('show');
+        form = document.forms[0];
+        var validator = new FormValidator({
+          "events": ['blur', 'input', 'change']
+        }, form);
+        if (validator.checkAll(form).valid) {
+          title = document.getElementById("title").value;
+          author = document.getElementById("author").value;
+          isbn = document.getElementById("isbn").value;
+          language = document.getElementById("language").value;
+          publicationYear = document.getElementById("publicationYear").value;
+          totalCopies = document.getElementById("totalCopies").value;
+          category = document.getElementById("cat").value;
+          subcategory = document.getElementById("subcat").value;
+          description = document.getElementById("description").value;
+          catalogNew(
+            title,
+            author,
+            isbn,
+            language,
+            publicationYear,
+            totalCopies,
+            description,
+            category,
+            subcategory
+          );
+          $('#myCatalogNew').modal('show');
+        }
         break;
       case "btnClose_myCatalogNew":
         cat = document.getElementById("cat").value;
@@ -357,6 +371,16 @@ document.addEventListener("click", function (e) {
       case "btnClose_myReturn":
         $('#myReturn').modal('hide');
         loadContent('transaction_current');
+        break;
+      case "btnOk_myCatalogDelete":
+        cat = document.getElementById("cat").value;
+        sub = document.getElementById("sub").value;
+        id = document.getElementById("id").value;
+        catalogDelete(cat,sub,id); 
+        $('#myCatalogDelete').modal('hide');
+        break;
+      case "btnClose_myCatalogDelete":
+        $('#myCatalogDelete').modal('hide');
         break;
       default:
         break;
@@ -593,7 +617,10 @@ function loadCatalog(cati, subi) {
           <td>${book.author}</td>
           <td>${book.isbn}</td>
           <td>${book.publicationYear}</td>
-          <td><a href="#" data-target="catalog_form?${cati}:${subi}:${book.rID}">Edit</a></td>         
+          <td>
+            <a href="#" data-target="catalog_form?${cati}:${subi}:${book.rID}">Edit</a>
+            | <a href="#" data-target="catalog_delete?${cati}:${subi}:${book.rID}">Delete</a>
+          </td>         
       </tr>
     `;
         list = list + li;
@@ -733,6 +760,29 @@ function catalogNew(
   Object.values(cat.categories).filter(c => c.rID === cati).forEach(c => {
     Object.values(c.subcategories).filter(sub => sub.rID === subi).forEach(sub => {
       sub.books.push(newRecord);
+    }
+    );
+  }
+  );
+  // Add the new record to the JSON data array
+
+
+  // Step 3: Update local storage with the modified JSON data
+  localStorage.setItem('myCatalog', JSON.stringify(cat));
+
+}
+
+function catalogDelete(
+  cati,subi,id
+) {
+
+  // Get current user daa
+  var cat = getCatalog();
+  
+  Object.values(cat.categories).filter(c => c.rID === cati).forEach(c => {
+    Object.values(c.subcategories).filter(sub => sub.rID === subi).forEach(sub => {
+     
+      sub.books = Object.values(sub.books).filter( (a) => a.rID !== id);
     }
     );
   }
